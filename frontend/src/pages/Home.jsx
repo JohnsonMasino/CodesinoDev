@@ -9,6 +9,7 @@ import WhyUs from '../components/WhyUs.jsx';
 import OurMission from '../components/OurMission.jsx';
 import CallToAction from '../components/Call_To_Action.jsx';
 import ImageCarousel from '../components/BackgroundImage.jsx';
+import Technologies from '../components/Technologies.jsx';
 import ServiceCarousel from '../components/ServiceCarousel.jsx';
 
 const strengths = [
@@ -92,6 +93,7 @@ const Home = () => {
                 
                 <BuiltByUs />
                 <Expertise />
+                <Technologies />
             </div>
 
             <Header />
