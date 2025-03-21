@@ -102,7 +102,7 @@ const handleSubmit = async (e) => {
                     <p className="text-center text-1xl font-bold font-curly text-gray-600 mb-12">
                     Reach us anytime—locally, online, or through our support team—for seamless service.
                     </p>
-
+ 
                     <div className="grid gap-12">
                         {contactDetails.map((contact, index) => (
                             <div key={index} className="contact-item bg-custom-bg2 shadow-md rounded-lg overflow-hidden">
