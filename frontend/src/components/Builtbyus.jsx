@@ -86,8 +86,8 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <div className="bg-custom-bg2 mt-6 text-white py-16 px-8">
-      <div className="text-center mb-12">
+    <div className="bg-custom-bg2 text-white py-16 px-8">
+      <div className="text-center mb-6">
         <h2 className="text-1xl font-mono font-bold text-gray-600">Our works speak for us</h2>
         <h2 className="text-blue-500 pt-10 font-bold">TESTIMONIALS</h2>
       </div>
@@ -96,7 +96,7 @@ const Testimonial = () => {
         {testimonials.map((testimonial, index) => (
           <div
             key={index}
-            className="p-4 rounded-md mx-4 space-x-4 shadow-md text-center text-gray-600 h-52 flex flex-col justify-between mb-4"
+            className="p-4 rounded-md mx-4 space-x-4 shadow-md text-center text-gray-600 h-52 flex flex-col justify-between mb-2"
           >
             <p className="text-lg italic mb-4">"{testimonial.quote}"</p>
             <h4 className="text-1xl font-bold">{testimonial.name}</h4>
@@ -111,7 +111,7 @@ const Testimonial = () => {
         </h2>
       </div>
 
-      <div className="mt-10 overflow-hidden">
+      <div className="mt-8 overflow-hidden">
         <div
           className="flex gap-6 mt-6 px-2 animate-slide whitespace-nowrap"
           style={{
