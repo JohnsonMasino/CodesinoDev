@@ -19,6 +19,7 @@ const technologies = [
       {name: "axios", logo: "axios.png"},
       {name: "npm", logo: "npm.png"},
       {name: "git", logo: "git.png"},
+      { name: "mailgun", logo: "mailgun.png" },
       { name: "React", logo: "react.png" },
       { name: "Next.js", logo: "next.png" },
       { name: "Vue.js", logo: "vue.png" },
@@ -32,20 +33,44 @@ const technologies = [
       {name: "axios", logo: "axios.png"},
       {name: "npm", logo: "npm.png"},
       {name: "git", logo: "git.png"},
+      { name: "mailgun", logo: "mailgun.png" },
     ],
   },
   {
     category: "Mobile App Development",
     tools: [
-      { name: "React Native", logo: "react-native.png" },
+      { name: "React", logo: "react.png" },
       { name: "Flutter", logo: "flutter.png" },
       { name: "Swift", logo: "swift.png" },
       { name: "Kotlin", logo: "kotlin.png" },
+      {name: "Github", logo: "github.png"},
+      {name: "git", logo: "git.png"},
+      { name: "React", logo: "react.png" },
+      { name: "Flutter", logo: "flutter.png" },
+      { name: "Swift", logo: "swift.png" },
+      { name: "Kotlin", logo: "kotlin.png" },
+      {name: "Github", logo: "github.png"},
+      {name: "git", logo: "git.png"},
+      { name: "React", logo: "react.png" },
+      { name: "Flutter", logo: "flutter.png" },
+      { name: "Swift", logo: "swift.png" },
+      { name: "Kotlin", logo: "kotlin.png" },
+      {name: "Github", logo: "github.png"},
+      {name: "git", logo: "git.png"},
+      { name: "mailgun", logo: "mailgun.png" },
     ],
   },
   {
     category: "Cloud Services",
     tools: [
+      { name: "AWS", logo: "aws.png" },
+      { name: "Google Cloud", logo: "gcloud.png" },
+      { name: "Azure", logo: "azure.png" },
+      { name: "Docker", logo: "docker.png" },
+      { name: "AWS", logo: "aws.png" },
+      { name: "Google Cloud", logo: "gcloud.png" },
+      { name: "Azure", logo: "azure.png" },
+      { name: "Docker", logo: "docker.png" },
       { name: "AWS", logo: "aws.png" },
       { name: "Google Cloud", logo: "gcloud.png" },
       { name: "Azure", logo: "azure.png" },
@@ -58,23 +83,53 @@ const technologies = [
       { name: "Adobe Photoshop", logo: "photoshop.png" },
       { name: "Figma", logo: "figma.png" },
       { name: "Sketch", logo: "sketch.png" },
+      { name: "Adobe Photoshop", logo: "photoshop.png" },
+      { name: "Figma", logo: "figma.png" },
+      { name: "Sketch", logo: "sketch.png" },
+      { name: "Adobe Photoshop", logo: "photoshop.png" },
+      { name: "Figma", logo: "figma.png" },
+      { name: "Sketch", logo: "sketch.png" },
+      { name: "Adobe Photoshop", logo: "photoshop.png" },
+      { name: "Figma", logo: "figma.png" },
+      { name: "Sketch", logo: "sketch.png" },
     ],
   },
   {
     category: "Motion Graphics | 3D Animation",
     tools: [
       { name: "Blender", logo: "blender.png" },
-      { name: "After Effects", logo: "aftereffects.png" },
+      { name: "After Effects", logo: "aftereffects.jpg" },
+      { name: "Cinema 4D", logo: "cinema4d.png" },
+      { name: "Blender", logo: "blender.png" },
+      { name: "After Effects", logo: "aftereffects.jpg" },
+      { name: "Cinema 4D", logo: "cinema4d.png" },
+      { name: "Blender", logo: "blender.png" },
+      { name: "After Effects", logo: "aftereffects.jpg" },
+      { name: "Cinema 4D", logo: "cinema4d.png" },
+      { name: "Blender", logo: "blender.png" },
+      { name: "After Effects", logo: "aftereffects.jpg" },
       { name: "Cinema 4D", logo: "cinema4d.png" },
     ],
   },
   {
     category: "Software Development Training",
     tools: [
-      { name: "Python", logo: "python.png" },
-      { name: "JavaScript", logo: "javascript.png" },
-      { name: "Java", logo: "java.png" },
-      { name: "C++", logo: "cpp.png" },
+      { name: "zoom", logo: "zoom.png" },
+      { name: "meet", logo: "meet.avif" },
+      { name: "whatsapp", logo: "whatsapp.webp" },
+      { name: "doc", logo: "doc.png" },
+      { name: "zoom", logo: "zoom.png" },
+      { name: "meet", logo: "meet.avif" },
+      { name: "whatsapp", logo: "whatsapp.webp" },
+      { name: "doc", logo: "doc.png" },
+      { name: "zoom", logo: "zoom.png" },
+      { name: "meet", logo: "meet.avif" },
+      { name: "whatsapp", logo: "whatsapp.webp" },
+      { name: "doc", logo: "doc.png" },
+      { name: "zoom", logo: "zoom.png" },
+      { name: "meet", logo: "meet.avif" },
+      { name: "whatsapp", logo: "whatsapp.webp" },
+      { name: "doc", logo: "doc.png" },
     ],
   },
   {
@@ -82,62 +137,59 @@ const technologies = [
     tools: [
       { name: "Binance", logo: "binance.png" },
       { name: "PayPal", logo: "paypal.png" },
-      { name: "Stripe", logo: "stripe.png" },
+      { name: "bitget", logo: "bitget.png" },
+      { name: "bybit", logo: "bybit.png" },
+      { name: "Binance", logo: "binance.png" },
+      { name: "PayPal", logo: "paypal.png" },
+      { name: "bitget", logo: "bitget.png" },
+      { name: "bybit", logo: "bybit.png" },
+      { name: "Binance", logo: "binance.png" },
+      { name: "PayPal", logo: "paypal.png" },
+      { name: "bitget", logo: "bitget.png" },
+      { name: "bybit", logo: "bybit.png" },
+      { name: "Binance", logo: "binance.png" },
+      { name: "PayPal", logo: "paypal.png" },
+      { name: "bitget", logo: "bitget.png" },
+      { name: "bybit", logo: "bybit.png" },
     ],
   },
   {
     category: "Software Management",
     tools: [
-      { name: "Jira", logo: "jira.png" },
-      { name: "Trello", logo: "trello.png" },
-      { name: "Asana", logo: "asana.png" },
+      { name: "clickup", logo: "clickup.png" },
+      { name: "note", logo: "note.jpg" },
+      { name: "mailgun", logo: "mailgun.png" },
+      { name: "clickup", logo: "clickup.png" },
+      { name: "note", logo: "note.jpg" },
+      { name: "mailgun", logo: "mailgun.png" },
+      { name: "clickup", logo: "clickup.png" },
+      { name: "note", logo: "note.jpg" },
+      { name: "mailgun", logo: "mailgun.png" },
+      { name: "clickup", logo: "clickup.png" },
+      { name: "note", logo: "note.jpg" },
+      { name: "mailgun", logo: "mailgun.png" },
     ],
   },
 ];
 
 const Testimonial = () => {
-  const truckImageRef = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          truckImageRef.current.classList.add("animate-slide-in-left");
-        } else {
-          truckImageRef.current.classList.remove("animate-slide-in-left");
-        }
-      },
-      { threshold: 0.5 }
-    );
-
-    if (truckImageRef.current) {
-      observer.observe(truckImageRef.current);
-    }
-
-    return () => {
-      if (truckImageRef.current) {
-        observer.unobserve(truckImageRef.current);
-      }
-    };
-  }, []);
-
   return (
-    <div className="bg-custom-bg2 mt-6 text-white py-16 px-8">
-      <div className="text-center mt-16">
-        <h2 className="text-1xl font-bold mt-12 text-gray-600">
+    <div className="bg-custom-bg2 text-white py-16 px-8">
+      <div className="text-center">
+        <h2 className="text-1xl font-bold text-gray-600">
           The Technologies We Use
         </h2>
       </div>
 
       {technologies.map((tech, index) => (
-        <div key={index} className="mt-10 overflow-hidden">
+        <div key={index} className="mt-8 overflow-hidden">
           <h2 className="text-center text-sm font-bold mt-12 text-gray-600">
             {tech.category}
           </h2>
           <div
-            className="flex gap-8 mt-6 px-2 animate-slide whitespace-nowrap"
+            className="tech-slider mt-4"
             style={{
-              animation: "slide 35s linear infinite",
+              animation: `slide ${20 + index * 2}s linear infinite`,
             }}
           >
             {tech.tools.map((tool, idx) => (
@@ -145,7 +197,7 @@ const Testimonial = () => {
                 key={idx}
                 src={tool.logo}
                 alt={tool.name}
-                className="h-16 object-contain"
+                className="h-16 object-contain mx-4"
               />
             ))}
           </div>
@@ -163,19 +215,10 @@ const Testimonial = () => {
             }
           }
 
-          @keyframes slide-in-left {
-            0% {
-              opacity: 0;
-              transform: translateX(-100%);
-            }
-            100% {
-              opacity: 1;
-              transform: translateX(0);
-            }
-          }
-
-          .animate-slide-in-left {
-            animation: slide-in-left 1s ease-out forwards;
+          .tech-slider {
+            display: flex;
+            gap: 20px;
+            white-space: nowrap;
           }
         `}
       </style>
